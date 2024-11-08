@@ -84,7 +84,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="892.8,1089.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="866.8,1089.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))" Name="Cities" />
       <Variable x:TypeArguments="scg:List(x:Object)" Name="CitiesList" />
@@ -112,6 +112,7 @@
           <InArgument x:TypeArguments="x:String">Chicago</InArgument>
           <InArgument x:TypeArguments="x:String">Seattle</InArgument>
           <InArgument x:TypeArguments="x:String">San Francisco</InArgument>
+          <InArgument x:TypeArguments="x:String">New York</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
       <uasc:BuildCollection.Result>
